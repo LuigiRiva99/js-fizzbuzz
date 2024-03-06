@@ -1,0 +1,42 @@
+.chess {
+    display: grid;
+    grid-template-columns: repeat(10,auto);
+    row-gap: 20px;
+    width: 100%;
+}
+
+.app {
+    background-color: #809BCE;
+}
+
+.square {
+    aspect-ratio: 1/1;
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square > p {
+    margin: 0;
+}
+
+.red {
+    background-color: #B83C38;
+    color: white;
+}
+
+.yellow {
+    background-color: #FCDF59;
+}
+
+.blue {
+    background-color: rgb(93, 93, 229);
+    color: white;
+}
+
+.white {
+    background-color: #F2F2F2;
+}
